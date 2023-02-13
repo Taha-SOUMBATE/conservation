@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: white;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.navigation {
+  text-align: center;
+}
+.navigation li {
+  list-style: none;
+  margin: 20px 0;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.donate {
+  visibility: hidden;
+}
+
+/*header*/
+#banner {
+  background: url(image/htmlcss1-img_tahoe.webp);
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  padding: px 0;
+  background-position: bottom center;
+}
+.content h1 {
+  width: 380px;
+  padding: 0px 5px;
+  border: 3px solid rgb(255, 255, 255);
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  top: 150px;
+}
+#main {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+
+  overflow: scroll;
+  height: 1000px;
+}
+.content h3 {
+  color: red;
+  font-size: 25px;
+}
+.byline {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.content p {
+  text-align: justify;
+}
+
+.pull-quote {
+  border: 1px dotted red;
+  color: red;
+
+  padding: 20px;
+}
+.share {
+  text-align: center;
+  padding: 50px;
+}
+.share a {
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+.share a:hover {
+  color: palevioletred;
+  background-color: white;
+}
